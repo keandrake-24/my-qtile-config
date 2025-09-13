@@ -1,16 +1,27 @@
 DoomOne = [
-    ["#282c34", "#282c34"], # bg
+    ["#282c34", "#282c34"], # bg 
     ["#bbc2cf", "#bbc2cf"], # fg
-    ["#1c1f24", "#1c1f24"], # color01
-    ["#ff6c6b", "#ff6c6b"], # color02
-    ["#98be65", "#98be65"], # color03
-    ["#da8548", "#da8548"], # color04
-    ["#51afef", "#51afef"], # color05
-    ["#c678dd", "#c678dd"], # color06
-    ["#46d9ff", "#46d9ff"], # color15
-    ["#7d7d7d", "#7d7d7d"]  # color[9]
+    ["#1c1f24", "#1c1f24"], # color01 black
+    ["#ff6c6b", "#ff6c6b"], # color02 red
+    ["#98be65", "#98be65"], # color03 green (lime)
+    ["#da8548", "#da8548"], # color04 orangey/ just yellow
+    ["#51afef", "#51afef"], # color05 blue
+    ["#c678dd", "#c678dd"], # color06 purple
+    ["#46d9ff", "#46d9ff"], # color15 light blue
+    ["#7d7d7d", "#7d7d7d"]  # color[9] grey
     ]
-
+CatpuccinLatte = [
+    ["#303446", "#303446"], # bg 
+    ["#c6d0f5", "#c6d0f5"], # fg
+    ["#232634", "#232634"], # color01 black
+    ["#d20f39", "#d20f39"], # color02 red
+    ["#40a02b", "#40a02b"], # color03 green (lime)
+    ["#fe640b", "#fe640b"], # color04 orangey/ just yellow
+    ["#1e66f5", "#1e66f5"], # color05 blue
+    ["#8839ef", "#8839ef"], # color06 purple
+    ["#7287fd", "#7287fd"], # color15 light blue
+    ["#7d7d7d", "#7d7d7d"]  # color[9] grey
+    ]
 Dracula  = [
     ["#282a36", "#282a36"], # bg
     ["#f8f8f2", "#f8f8f2"], # fg
@@ -25,8 +36,8 @@ Dracula  = [
     ]
 
 GruvboxDark  = [
-    ["#282828", "#282828"], # color[0]
-    ["#ebdbb2", "#ebdbb2"], # color[1]
+    ["#282828", "#282828"], # color[0] bg
+    ["#ebdbb2", "#ebdbb2"], # color[1] fg
     ["#000000", "#000000"], # color[2]
     ["#fb4934", "#fb4934"], # color[3]
     ["#98971a", "#98971a"], # color[4]

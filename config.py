@@ -1,3 +1,4 @@
+
 # Copyright (c) 2010 Aldo Cortesi
 # Copyright (c) 2010, 2014 dequis
 # Copyright (c) 2012 Randall Ma
@@ -33,7 +34,7 @@ import subprocess
 import colors
 mod = "mod4"
 terminal = guess_terminal()
-colors = colors.DoomOne
+colors = colors.CatpuccinLatte
 
 @hook.subscribe.startup_once
 def autostart():
@@ -148,7 +149,7 @@ def init_widgets_list():
                  ## Uncomment for time only
                  ##format = "⧗  %I:%M %p",
                  ),
-        widget.Systray(padding = 6),
+        widget.Systray(padding = 6,icon_size=30),
         widget.Spacer(length = 8),
 
         ]
@@ -219,6 +220,10 @@ keys = [
         lazy.spawn("brightnessctl set 5%-"), 
         desc="Decrease brightness"),
     
+    #screenshot
+    Key([], "Print", lazy.spawn(["xfce4-screenshooter"]), desc="screenshot Full screen"),
+
+    
 ]
 
 # Add key bindings to switch VTs in Wayland.
@@ -262,7 +267,7 @@ for i in groups:
     )
 
 
-layout_theme = {"border_width": 2,
+layout_theme = {"border_width": 3,
                 "margin": 12,
                 "border_focus": colors[8],
                 "border_normal": colors[0]
@@ -292,7 +297,7 @@ extension_defaults = widget_defaults.copy()
 
 screens = [
     Screen(
-        bottom=bar.Bar(widgets=init_widgets_list(),margin=[8,12,0,12],size=30)
+        top=bar.Bar(widgets=init_widgets_list(),margin=[8,12,0,12],size=35,background=colors[0])
     )
 ]
 
