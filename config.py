@@ -34,8 +34,7 @@ import subprocess
 import colors
 mod = "mod4"
 terminal = guess_terminal()
-colors = colors.CatpuccinLatte
-
+colors = colors.CatpuccinLatte 
 @hook.subscribe.startup_once
 def autostart():
     home = os.path.expanduser('~/.config/qtile/autostart.sh')

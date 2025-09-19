@@ -8,4 +8,4 @@ dunst
 lxsession
 a file manager
 a web browser
-a terminal (the best one is alacritty because its platform independent0
+a terminal (the best one is alacritty because its platform independent)

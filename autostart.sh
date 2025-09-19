@@ -1,2 +1,6 @@
 #!/bin/bash
-picom -b && nitrogen --restore && nm-applet && dunst && lxsession
+picom -b 
+nitrogen --restore &
+nm-applet & 
+dunst &
+lxsession &
